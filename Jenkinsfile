@@ -17,11 +17,11 @@ pipeline {
 
                 # TODO fill out the path to conda here
 
-                sudo source MLIP_Lab6/venv/bin/activate
+                sudo source yuktabhartia/MLIP_Lab6/venv/bin/activate
                 sudo pip install -r requirements.txt
 
                 # TODO Complete the command to run pytest
-                pytest
+                sudo pytest
 
                 echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
