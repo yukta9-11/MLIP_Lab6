@@ -17,8 +17,9 @@ pipeline {
 
                 # TODO fill out the path to conda here
 
+                sudo source venv/bin/activate
                 sudo source MLIP_Lab6/venv/bin/activate
-                sudo pip install -r requirement.txt
+                sudo pip install pandas
 
                 # TODO Complete the command to run pytest
                 sudo pytest
