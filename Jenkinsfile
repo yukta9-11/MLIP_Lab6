@@ -17,9 +17,13 @@ pipeline {
 
                 # TODO fill out the path to conda here
 
-                sudo source venv/bin/activate
-                sudo source MLIP_Lab6/venv/bin/activate
-                sudo pip install pandas
+                python3 -m venv venvyukta
+                source venvyukta/bin/activate
+                pip install pandas
+                pip install numpy
+                pip install scikit
+                pip install pytest
+
 
                 # TODO Complete the command to run pytest
                 sudo pytest
