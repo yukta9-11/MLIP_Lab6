@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                source /home/ybhartia/Lab6/MLIP_Lab6/venv/bin/activate
+                sudo source /home/ybhartia/Lab6/MLIP_Lab6/venv/bin/activate
 
                 # TODO Complete the command to run pytest
                 pytest
