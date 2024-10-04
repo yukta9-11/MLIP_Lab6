@@ -17,11 +17,11 @@ pipeline {
 
                 # TODO fill out the path to conda here
 
-                python3 -m venv venvyukta
-                source venvyukta/bin/activate
+                python3 -m venv venvyukta1
+                source venvyukta1/bin/activate
                 pip install pandas
                 pip install numpy
-                pip install scikit
+                pip install scikit-learn
                 pip install pytest
 
 
